@@ -14,10 +14,3 @@ echo "mount -t nfs -o rw,bg,hard,rsize=32768,wsize=32768,vers=3 192.168.14.6:/vo
 echo "mount -t nfs -o rw,bg,hard,rsize=32768,wsize=32768,vers=3 192.168.14.6:/vol/UESMAG1/UESMAG1  /lv_uesmag">>/etc/rc.d/rc.local
 
 
-PermitRootLogin yes
-AuthorizedKeysFile	.ssh/authorized_keys
-UsePAM yes
-UseDNS no
-Subsystem	sftp	/usr/libexec/sftp-server
-
-
