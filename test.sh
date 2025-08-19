@@ -3,3 +3,4 @@ echo $HOSTNAME
 date +%Y-%m-%d
 nproc
 df -h
+ulimit -n
