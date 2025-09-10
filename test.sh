@@ -2,5 +2,5 @@
 echo $HOSTNAME
 date +%Y-%m-%d
 nproc
-df -h
+df -h|grep "/$"|awk '{print $5}'
 ulimit -n
